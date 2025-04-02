@@ -8,8 +8,9 @@ static char *cachedir       = "~/.surf/cache/";
 static char *cookiefile     = "~/.surf/cookies.txt";
 
 static SearchEngine searchengines[] = {
-	{ " ", "https://duckduckgo.com/?q=%s" },
-	{ "osrs ", "https://oldschool.runescape.wiki/?search=%s" },
+	{ " ", "http://www.google.com/search?q=%s" },
+	{ "g ", "http://www.google.com/search?q=%s" },
+	{ "d ", "https://duckduckgo.com/?q=%s" },
 };
 
 /* Webkit default features */
